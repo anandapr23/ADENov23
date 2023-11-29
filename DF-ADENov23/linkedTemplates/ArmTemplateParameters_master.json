@@ -1,0 +1,42 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "DF-ADENov23"
+		},
+		"LS_ADB_accessToken": {
+			"value": ""
+		},
+		"LS_AZURESQL_connectionString": {
+			"value": ""
+		},
+		"LS_adls_accountKey": {
+			"value": ""
+		},
+		"LS_blob_connectionString": {
+			"value": ""
+		},
+		"LS_ADB_properties_typeProperties_existingClusterId": {
+			"value": "1123-045139-z3t6a1ea"
+		},
+		"LS_adls_properties_typeProperties_url": {
+			"value": "https://adlssnov23.dfs.core.windows.net/"
+		},
+		"TumblingTrigger_properties_pipeline_parameters_StartDate": {
+			"value": "@trigger().outputs.windowStartTime"
+		},
+		"TumblingTrigger_properties_pipeline_parameters_EndDate": {
+			"value": "@trigger().outputs.windowEndTime"
+		},
+		"eventtrigger1_properties_typeProperties_scope": {
+			"value": "/subscriptions/2a56afd9-e2ac-4a13-a798-5654db4ca71f/resourceGroups/RG-ADENov23/providers/Microsoft.Storage/storageAccounts/stgacctsadenov23"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
