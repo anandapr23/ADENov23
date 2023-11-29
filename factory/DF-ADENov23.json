@@ -1,0 +1,9 @@
+{
+	"name": "DF-ADENov23",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "39c202b5-a492-4bfb-8bf9-c9cddceea8ad",
+		"tenantId": "ea40ad42-7521-4812-b2d5-48897769a920"
+	}
+}
